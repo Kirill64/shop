@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.body{
+    background: #E5E5E5;
+}
+
+.header{
+    background: #F1E4E6;
+}
+
+.header__box{
+  
+
+}
+
+.header__line{
+    
+    background: #222222;
+    
+}
+
+.header__line_menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140px;
+    
+}
+.header__line_menu_option{
+    margin: 19px 0 20px;
+    display: flex;
+    
+}
+
+.header__menu_size{
+    margin-right: 41px;
+}
+.header__menu_size_center{
+    margin-right: 33px;
+    margin-left: 33px;
+    }
+.header__line_menu_box{
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+.header__main{
+    margin: 0 auto;
+    max-width: 1600px;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+.content{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.for{
+margin-top: 64px;
+}
+.for__box{
+    display: flex;
+    flex-direction: column;
+   
+}
+.for__box_top{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.for__box_women{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./image/women.svg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 360px;
+}
+.for__box_men{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./image/men.svg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 360px;
+}
+
+.for__box_kids{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./image/kids.svg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    width: 360px;
+}
+
+.for__box_accesories{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./image/accesories.svg);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    
+}
+
+.for__box_link{
+  text-decoration: none;
+}
+
+.for__box_name{
+    font-weight: 400;
+    font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+max-width: 154px;
+margin: 0 ;
+align-self: center;
+
+}
+.for__box_name_color{
+    color: 
+    #F16D7F;
+    font-size: 24px;
+line-height: 29px;
+font-weight: 700;
+margin: 0 ;
+align-self: center;
+}
+
+.for__box_bottom{
+    margin-top: 30px;
+}
+.footer{
+    
+}
+
+
